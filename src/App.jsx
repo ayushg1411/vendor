@@ -17,6 +17,9 @@ import Parkings from './Screens/Parkings'
 import Profile from './Screens/Profile'
 import ParkingDetail from './Screens/ParkingDetail'
 import GaurdDetail from './Screens/GaurdDetail'
+import GLayout from './Layout/GLayout'
+import GLandingScreen from './Screens/GaurdScreens/GLandingScreen'
+import BookingsG from './Screens/GaurdScreens/BookingScreens'
 function App() {
 
 
@@ -35,6 +38,12 @@ function App() {
         <Route path="/help" element={<Layout><Help /></Layout>} />
         <Route path="/parkingid" element={<Layout><ParkingDetail /></Layout>} />
         <Route path="/gaurdid" element={<Layout><GaurdDetail /></Layout>} />
+
+
+
+        <Route path="/GaurdHome" element={<GLayout>< Profile /></GLayout>} />
+        <Route path="/guardbookings" element={<GLayout>< BookingsG /></GLayout>} />
+
 
 
 

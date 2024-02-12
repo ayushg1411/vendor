@@ -37,41 +37,7 @@ const SideBar = () => {
                 </div>
             </Link>
           </div>
-          <div className="m-1 text-sm px-1 max- py-4 w-36  text-gray-600 hover:text-gray-800  rounded-sm">
-            <Link
-              to="/gaurds"
-              className="text-white font-medium hover:text-gray-500 transition"
-            >
-                <div className="flex ">
-              <h1 className="text-gray-800 text-sm py-1 px-2">  <IoMan/></h1>
-                <h1 className="text-gray-600 hover:text-gray-800 hover:font-bold">  Gaurds</h1>
-                </div>
-            </Link>
-          </div>
-          <div className="m-1 text-sm px-1 max- py-4 w-36  text-gray-600 hover:text-gray-800 rounded-sm">
-         
-            <Link
-              to="/accounts"
-              className="text-white font-medium hover:text-gray-500 transition"
-            >
-              <div className="flex ">
-              <h1 className="text-gray-800 text-sm py-1 px-2">  <MdAccountBalance/></h1>
-                <h1 className="text-gray-600 hover:text-gray-800 hover:font-bold">  Accounts</h1>
-                </div>
-            </Link>
-          </div>
-          <div className="m-1 text-sm px-1 max- py-4 w-36  text-gray-600 hover:text-gray-800 rounded-sm">
-         
-         <Link
-           to="/transactions"
-           className="text-white font-medium hover:text-gray-500 transition"
-         >
-           <div className="flex ">
-           <h1 className="text-gray-800 text-sm py-1 px-2">  <FiDatabase/></h1>
-             <h1 className="text-gray-600 hover:text-gray-800 hover:font-bold">  Transactions</h1>
-             </div>
-         </Link>
-       </div>
+        
           <div className="m-1 text-sm px-1 max- py-4 w-36  text-gray-600 hover:text-gray-800 rounded-sm">
          
          <Link
@@ -87,12 +53,12 @@ const SideBar = () => {
        <div className="m-1 text-sm px-1 max- py-4 w-36  text-gray-600 hover:text-gray-800 rounded-sm">
          
          <Link
-           to="/vendorHome"
+           to="/guardbookings"
            className="text-white font-medium hover:text-gray-500 transition"
          >
            <div className="flex ">
            <h1 className="text-gray-800 text-sm py-1 px-2">  <FiDatabase/></h1>
-             <h1 className="text-gray-600 hover:text-gray-800 hover:font-bold">  VendorSite</h1>
+             <h1 className="text-gray-600 hover:text-gray-800 hover:font-bold">  Bookings</h1>
              </div>
          </Link>
        </div>
